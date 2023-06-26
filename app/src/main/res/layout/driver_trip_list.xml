@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+
+            app:cardCornerRadius="25dp"
+            >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+
+                   <TextView
+                       android:id="@+id/trip_id"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_id"
+                       android:textDirection="rtl"
+
+                       />
+
+
+                   <TextView
+                       android:id="@+id/showTripId"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textDirection="rtl"
+                       android:layout_marginLeft="150dp"
+
+                       />
+
+
+
+
+
+
+               </LinearLayout>
+
+
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+
+                   <TextView
+                       android:id="@+id/trip_startTime"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_startTime"
+                       android:textDirection="rtl"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/showTripStartTime"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="150dp"
+                       />
+
+
+
+
+               </LinearLayout>
+
+
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+
+                   <TextView
+                       android:id="@+id/trip_endTime"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_endTime"
+                       android:textDirection="rtl"
+
+                       />
+
+
+                   <TextView
+                       android:id="@+id/showTripEndTime"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="150dp"
+
+                       />
+
+
+
+
+               </LinearLayout>
+
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+
+                   <TextView
+                       android:id="@+id/trip_distance"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_distance"
+                       android:textDirection="rtl"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/showTripDistance"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="150dp"
+
+                       />
+
+
+
+
+               </LinearLayout>
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+
+                   <TextView
+                       android:id="@+id/trip_date"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_date"
+                       android:textDirection="rtl"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/showTripDate"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="150dp"
+
+                       />
+
+
+
+
+               </LinearLayout>
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="5dp"
+                   android:layoutDirection="rtl">
+
+                   <TextView
+                       android:id="@+id/trip_truck"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/trip_truckId"
+                       android:textDirection="rtl"
+                       />
+
+
+
+                   <TextView
+                       android:id="@+id/showTripTruck"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="150dp"
+
+                       />
+
+
+
+
+               </LinearLayout>
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layoutDirection="rtl">
+
+                   <Button
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/btn_show_on_map"
+                       android:layout_margin="50dp"
+                       android:text="@string/show_on_map"
+                       />
+
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

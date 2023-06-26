@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SWMSApp</string>
+    <string name="empty"></string>
+    <string name="driver_id">رقم تعريف السائق</string>
+    <string name="driver_password">كلمة المرور</string>
+    <string name="login_text">تسجيل دخول </string>
+    <string name="driver_name">اسم السائق</string>
+    <string name="driver_phone">هاتف السائق</string>
+    <string name="settings_text">الاعدادات</string>
+    <string name="logout_text">تسجيل خروج</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_text">الخريطة</string>
+    <string name="notification_text">حالات الحاويات</string>
+    <string name="report_trips">رحلاتي</string>
+    <string name="truck_hint">"اختار رقم تعريف الشاحنة "</string>
+    <string name="truck_id_hint">رقم تعريف الشاحنة</string>
+
+    <string name="trip_id">رقم تعريف الرحلة: </string>
+
+    <string name="trip_startTime">  وقت بدء الرحلة:</string>
+
+    <string name="trip_endTime">وقت نهاية الرحلة:</string>
+
+    <string name="trip_distance">المسافة المقطوعة:</string>
+
+    <string name="trip_date">تاريخ الرحلة:</string>
+
+    <string name="trip_truckId">معرف شاحنة الرحلة:</string>
+    <string name="show_on_map">عرض الرحلة على الخريطة</string>
+
+    <string name="bin_id">رقم الحاوية: </string>
+
+    <string name="bin_state">حالة التعبئة :</string>
+
+    <string name="clear_bin">تفريغ الحاوية</string>
+
+    <string name="ssn">الرقم الوطني</string>
+
+    <string name="city">المدينة</string>
+
+    <string name="dateofbirth">تاريخ الميلاد</string>
+
+    <string name="phone">رقم الهاتف</string>
+
+    <string name="update_driver_data">تحديث بياناتي</string>
+    <string name="minute_label">الدقائق</string>
+    <string name="distance_label">المسافة المقطوعة(كم)</string>
+    <string name="select_year_label">اختر السنة لعرض رحلات الاشهر</string>
+    <string name="num_trips">عدد الرحلات</string>
+    <string name="monthLabel">الشهر</string>
+    <string name="binid_label">رقم الحاوية</string>
+    <string name="binstate_label">حالة الحاوية</string>
+
+</resources>

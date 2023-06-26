@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity">
+
+    <!--activity linear layout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_margin="30dp"
+                    app:cardBackgroundColor="@color/white"
+
+                    app:cardCornerRadius="@dimen/card_corner">
+
+                    <!--card view linear layout-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <!-- driver id text field   -->
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textField_driverId"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin"
+                            android:hint="@string/driver_id"
+                            android:padding="@dimen/padding">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:textColorHint="#757575"
+                                android:textDirection="ltr"
+                                tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <!-- driver password text field-->
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textField_driverPassword"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin"
+                            android:hint="@string/driver_password"
+                            android:padding="@dimen/padding"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:textColorHint="#757575"
+                                android:textDirection="ltr"
+                                tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:layout_weight="1"
+                                android:text="@string/truck_hint"
+                                android:textDirection="rtl" />
+
+                            <Spinner
+                                android:id="@+id/spinner_availableTrucks"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <!--Login button-->
+
+                        <Button
+                            android:id="@+id/LoginButton"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/margin"
+                            android:backgroundTint="@color/green"
+                            android:text="@string/login_text"
+
+                            android:textColor="@color/white"
+
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold"
+                            tools:ignore="TextContrastCheck" />
+
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
